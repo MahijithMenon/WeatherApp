@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #search{
+            border: 2px solid black;
+            height: 10vh;
+            color: white;
+        }
+        #search-text{
+            width: 100%;
+            height: 100%;
+        }
+        #Output{
+        height: 50vh;
+        border:2px solid black;
+        }
+        #btn{
+            top: 3rem;
+         left: 5rem;
+            height: 10vh;
+           width: 20vw;
+        }
+    </style>
+</head>
+<body style="background: url('https://img.freepik.com/free-vector/flat-style-clouds-blue-shades-background_1017-23284.jpg?w=996&t=st=1662611915~exp=1662612515~hmac=b3d41094c4109d22518f2b8ac3153156a7feaca2f5b47fe9721fa4fb75669e96');">
+    <div id="search">
+        <input  type="text" placeholder="Search🔎" id="search-text">
+    </div>
+    <button id="btn" type="submit">Check The Weather</button>
+    <div id="Output">
+        <div class="card">
+            <h1 class="name" id="name"></h1>
+            <p class="temp"></p>
+            <p class="desc"></p>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
